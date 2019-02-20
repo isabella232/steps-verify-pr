@@ -2,7 +2,7 @@
 
 Verifies PR is owned by the Instructure org. Place immediately after `Activate SSH key` and before `Git Clone Repository`
 
-<img src="workflow.png" style="width: 50%" />
+<img src="workflow.png" width="50%" />
 
 ```yaml
 - git::git@github.com:instructure/steps-verify-pr.git@master:
