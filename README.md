@@ -2,6 +2,8 @@
 
 Verifies PR is owned by the Instructure org
 
+- `- git::https://github.com/instructure/steps-verify-pr.git@master:`
+
 
 ## How to use this Step
 
