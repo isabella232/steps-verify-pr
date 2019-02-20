@@ -16,6 +16,8 @@ if [[ -z "$BITRISEIO_PULL_REQUEST_REPOSITORY_URL" ]]; then
 else
   if [[ "$BITRISEIO_PULL_REQUEST_REPOSITORY_URL" = git@github.com:instructure/* ]]; then
     echo "Trusted pull request from $BITRISEIO_PULL_REQUEST_REPOSITORY_URL"
+  elif [[ "$BITRISEIO_PULL_REQUEST_REPOSITORY_URL" = https://github.com/instructure/* ]]; then
+    echo "Trusted pull request from $BITRISEIO_PULL_REQUEST_REPOSITORY_URL"
   else
     echo "Untrusted pull request from $BITRISEIO_PULL_REQUEST_REPOSITORY_URL. Aborting"
     exit 1
