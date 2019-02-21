@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+echo "Running steps-verify-pr"
+
 # Bitrise supports 3 triggers: push, PR, and tag
 # push and tag require write access to the repo.
 # If a user has write access, they are trusted.
