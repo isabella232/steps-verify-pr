@@ -5,7 +5,7 @@ Verifies PR is owned by the Instructure org. Place immediately after `Activate S
 <img src="workflow.png" width="50%" />
 
 ```yaml
-- git::git@github.com:instructure/steps-verify-pr.git@master:
+- git::https://github.com/instructure/steps-verify-pr.git@master:
       title: Verify PR
 ```
 
